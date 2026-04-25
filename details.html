@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Item Details</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h2>Fashion Fiesta – Item Details</h2>
+     <header>
+    <div class="container topbar">
+      <!-- <div class="logo">ShopLite</div> -->
+      <nav class="controls">
+        <div class="search" title="Search products">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#94a3b8" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.415-1.415l-3.85-3.85zm-5.242 0a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/></svg>
+    <input type="text" id="search" placeholder="Search fashion items...">
+        </div>
+        <select id="categorySelect"><option value="all">All categories</option></select>
+        <select id="sortSelect">
+          <option value="default">Sort</option>
+          <option value="price-asc">Price: Low → High</option>
+          <option value="price-desc">Price: High → Low</option>
+        </select>
+        <button id="refreshBtn" title="Reload product list">Refresh</button>
+      </nav>
+    </div>
+  </header>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <div id="details-container" class="details-box"></div>
+
+  <footer>
+    <p>© 2025 Global group of institutions | Durga Puja Fashion Fiesta</p>
+    <div class="footer-about-link">
+      <a class="footer-btn" href="about.html">About Us</a>
+    </div>
+  </footer>
+  <script src="details.js"></script>
+</body>
+</html>
